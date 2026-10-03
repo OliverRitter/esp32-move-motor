@@ -41,3 +41,12 @@
 Thumbs.db
 **/.vscode/
 **/.idea/
+# ==========================================
+# 🧠 AI / MACHINE LEARNING OBJECTS
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.bin
+**/yolo_web_stream/yolov8*.pt
