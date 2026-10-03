@@ -1,0 +1,43 @@
+# ==========================================
+# ⚛️ REACT / NEXT.JS IGNORES
+# ==========================================
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.env*.local
+
+# ==========================================
+# 🐍 PYTHON IGNORES
+# ==========================================
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.venv/
+**/venv/
+**/ENV/
+**/.env
+
+# ==========================================
+# 🔌 ESP32 / EMBEDDED IGNORES
+# ==========================================
+# If using PlatformIO:
+**/.pio/
+**/.clang_complete
+
+# If using Arduino IDE:
+**/Build/
+**/Output/
+
+# General IDE / Toolchain binaries
+**/*.hex
+**/*.bin
+**/*.elf
+
+# ==========================================
+# 💻 SYSTEM & IDE IGNORES
+# ==========================================
+.DS_Store
+Thumbs.db
+**/.vscode/
+**/.idea/
